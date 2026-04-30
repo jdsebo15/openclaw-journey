@@ -30,9 +30,6 @@ export default function Home() {
           <span className="px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 rounded-full text-sm font-medium">
             Claude Code
           </span>
-          <span className="px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 rounded-full text-sm font-medium">
-            App Development
-          </span>
         </div>
         <div className="flex justify-center gap-4">
           <Link

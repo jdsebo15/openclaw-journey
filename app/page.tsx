@@ -48,18 +48,10 @@ export default function Home() {
       </div>
 
       {/* Stats Section */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mb-16">
         <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-5 text-center">
           <div className="text-3xl font-bold text-primary-600 dark:text-primary-400">{posts.length}</div>
           <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Blog Posts</div>
-        </div>
-        <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-5 text-center">
-          <div className="text-3xl font-bold text-primary-600 dark:text-primary-400">7</div>
-          <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Topics Covered</div>
-        </div>
-        <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 p-5 text-center">
-          <div className="text-3xl font-bold text-primary-600 dark:text-primary-400">Ongoing</div>
-          <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Journey</div>
         </div>
       </div>
 

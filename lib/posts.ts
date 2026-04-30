@@ -512,7 +512,7 @@ touch SKILL.md</code></pre>
 
       <h2>The Setup</h2>
 
-      <p>Home Assistant runs on a machine at <code>192.168.4.148:8123</code> with a substantial dashboard of 28+ cards. OpenClaw connects to it via its REST API. The key pieces:</p>
+      <p>Home Assistant runs on a local machine with a substantial dashboard of 28+ cards. OpenClaw connects to it via its REST API. The key pieces:</p>
 
       <ul>
         <li><strong>Home Assistant</strong> — Central hub for lights, switches, climate, media, and sensors</li>
@@ -543,7 +543,7 @@ touch SKILL.md</code></pre>
       <pre><code>const { chromium } = require('playwright');
 const browser = await chromium.launch({ headless: false });
 const page = await browser.newPage();
-await page.goto('http://192.168.4.148:8123');
+await page.goto('http://your-homeassistant:8123');
 await page.fill('input[type="text"]', 'username');
 await page.fill('input[type="password"]', 'password');
 await page.keyboard.press('Enter');

@@ -33,9 +33,6 @@ export default function Home() {
           <span className="px-4 py-2 bg-primary-100 text-primary-800 rounded-full text-sm font-medium">
             App Development
           </span>
-          <span className="px-4 py-2 bg-primary-100 text-primary-800 rounded-full text-sm font-medium">
-            Smart Home
-          </span>
         </div>
         <div className="flex justify-center gap-4">
           <Link
@@ -54,22 +51,18 @@ export default function Home() {
       </div>
 
       {/* Stats Section */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-16">
         <div className="bg-white rounded-xl border border-gray-200 p-5 text-center">
           <div className="text-3xl font-bold text-primary-600">{posts.length}</div>
           <div className="text-sm text-gray-600 mt-1">Blog Posts</div>
         </div>
         <div className="bg-white rounded-xl border border-gray-200 p-5 text-center">
-          <div className="text-3xl font-bold text-primary-600">3</div>
-          <div className="text-sm text-gray-600 mt-1">Projects</div>
+          <div className="text-3xl font-bold text-primary-600">7</div>
+          <div className="text-sm text-gray-600 mt-1">Topics Covered</div>
         </div>
         <div className="bg-white rounded-xl border border-gray-200 p-5 text-center">
-          <div className="text-3xl font-bold text-primary-600">10+</div>
-          <div className="text-sm text-gray-600 mt-1">Skills Built</div>
-        </div>
-        <div className="bg-white rounded-xl border border-gray-200 p-5 text-center">
-          <div className="text-3xl font-bold text-primary-600">500+</div>
-          <div className="text-sm text-gray-600 mt-1">IoT Devices</div>
+          <div className="text-3xl font-bold text-primary-600">Ongoing</div>
+          <div className="text-sm text-gray-600 mt-1">Journey</div>
         </div>
       </div>
 
@@ -84,9 +77,9 @@ export default function Home() {
             AI becomes a genuine coding partner.
           </p>
           <p className="text-gray-600">
-            You'll find practical tutorials, setup guides, honest comparisons, and insights from actually 
-            using these tools daily. No hype, just real results and lessons learned from building 
-            everything from React Native apps to smart home integrations.
+            You'll find practical tutorials, setup guides, honest comparisons, and insights from actually
+            using these tools daily. No hype, just real results and lessons learned from building
+            real applications with AI assistance.
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-gray-200 bg-gray-50 mt-16">
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-6 h-6 bg-gradient-to-br from-primary-500 to-primary-700 rounded" />
@@ -42,18 +42,8 @@ export default function Footer() {
                   About
                 </a>
               </li>
-              <li>
-                <a 
-                  href="/projects" 
-                  className="text-gray-600 hover:text-primary-600 transition-colors"
-                >
-                  Projects
-                </a>
-              </li>
             </ul>
           </div>
-          
-
         </div>
         
         <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-500 text-sm">
